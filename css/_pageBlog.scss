@@ -1,0 +1,91 @@
+/*blog*/
+
+.blog{
+	&__item{
+		margin-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px dotted #a7a7a7;
+		color: #ffffff;
+	}
+	&__img{
+		width: 100%;
+		height: auto;
+	}
+	&--black{
+		background: #000000;
+	}
+	&--grey{
+		background: #362f2f;
+	}
+	&__content{
+		padding: 32px 10px;
+	}
+	&__title{
+		font-size: $fs*2.25;
+		text-transform: uppercase;
+	}
+	&__text{
+		font-size: $fs*1.5;
+		font-weight: 400;
+		&--indent{
+			margin: 0 10px;
+		}
+	}
+	&__btn{
+		margin: 50px;
+		padding: 10px 60px;
+		background: #c3a000;
+		border-style: none;
+		color: #ffffff;
+		text-transform: uppercase;
+		&:hover{
+			color: #426478;
+			background: linear-gradient(45deg, #e6deda, #a89489);
+			transition: 0.4s;
+		}
+	}
+}
+
+.navigations{
+	padding: 40px 0;
+	&__title{
+		margin: 0 5px;
+		padding: 15px 25px;
+		background: #362f2f;
+		color: #ffffff;
+		border-style: none;
+		font-size: $fs*1.5;
+		text-transform: uppercase;
+		&:hover{
+			color: #426478;
+			background: linear-gradient(45deg, #e6deda, #a89489);
+			transition: 0.4s;
+		}
+	}
+	&__number{
+		margin: 0 2px;
+		padding: 10px;
+		background: rgba(0,0,0,0);
+		color: #202020;
+		border-style: none;
+		&:hover{
+			color: #426478;
+			background: linear-gradient(45deg, #e6deda, #a89489);
+			transition: 0.4s;
+		}
+	}
+}
+
+.arrowUp{
+	width: 50px;
+	height: 50px;
+	background: #4a2a2a;
+	color: #ffe6e6;
+	font-size: $fs*3;
+	&:hover{
+		color: #426478;
+		background: linear-gradient(45deg, #e6deda, #a89489);
+		transition: 0.4s;
+		text-decoration: none;
+	}
+}

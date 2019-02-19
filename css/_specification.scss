@@ -1,0 +1,23 @@
+/*specification*/
+
+$fs: 8px;
+$fmr: 'Roboto', sans-serif;
+$fmo: 'Open Sans', sans-serif;
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: $fmr;
+    font-size: $fs*2;
+    color: #362f2f;
+}
+
+div, img{
+    box-sizing: border-box;
+}
+
+ul, li{
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+}

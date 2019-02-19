@@ -1,0 +1,87 @@
+/*bottom*/
+
+.bottom{
+	& img{
+		width: 100%;
+	}
+}
+
+.fashion{
+	padding-bottom: 30px;
+	background: #000000;
+	color: #eeeeee;
+	text-align: center;
+	&__title{
+		padding: 10px 0;
+		text-transform: uppercase;
+		font-size: $fs*2.25;
+	}
+	&__subtitle{
+		font-size: $fs*2;
+	}
+	&__text{
+		padding-bottom: 10px;
+		font-size: $fs*1.75;
+	}
+	&__logo{
+		padding: 20px 15px;
+		background: #c3a000;
+		text-transform: uppercase;
+	}
+}
+
+.news__title{
+	text-transform: uppercase;
+	border-bottom: 1px solid #c3a000;
+}
+
+.new{
+	color: #362f2f;
+	font-size: $fs*1.5;
+	&__title{
+		text-transform: uppercase;
+		font-size: $fs*1.5;
+	}
+	&__subtitle{
+		color: #a78d8d;
+		font-size: $fs*1.25;
+	}
+	&__text{
+		margin-left: 10px;
+		color: #c99000;
+		text-transform: uppercase;
+		font-size: $fs*1.5;
+	}
+}
+
+.contact{
+	&__img{
+		width: 100px;
+		height: 100px;
+	}
+}
+
+.twitter{
+	color: #362f2f;
+	text-align: center;
+	&__text{
+		color: #c3a000;
+		font-size: $fs*2.25;
+		font-style: italic;
+	}
+}
+
+.partners__icons{
+	padding: 100px 0;
+}
+
+.footer{
+	padding: 45px 0;
+	color: #000000;
+	text-align: center;
+	font-family: $fmo;
+	font-size: $fs+5;
+	&__text{
+		margin-top: 45px;
+	}
+}

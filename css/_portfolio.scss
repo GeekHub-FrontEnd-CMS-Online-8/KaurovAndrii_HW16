@@ -1,0 +1,40 @@
+/*portfolio*/
+
+.portfolio{
+	background-image: url(../img/layer.png);
+  	background-position: top center;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	margin-bottom: 30px;
+}
+
+.info{
+	margin-top: 877px;
+	background: #ffffff;
+	&__content{
+		padding: 70px 20px 50px 20px;
+		color: #362f2f;
+	}
+	&__title{
+		font-size: $fs+10;
+		text-transform: uppercase;
+	}
+	&__subtitle{
+		font-size: $fs*1.75;
+	}
+	&__text{
+		font-size: $fs+6;
+	}
+}
+
+.popup{
+	color: #c88f00;
+}
+
+.slider{
+	margin-top: 100px;
+	& button{
+		background: #4a2a2a;
+		color: #e7cccc;
+	}
+}
