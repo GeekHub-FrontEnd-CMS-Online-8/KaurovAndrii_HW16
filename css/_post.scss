@@ -39,3 +39,27 @@
 		}
 	}
 }
+
+.share {
+	padding: 30px;
+	background: #f8f8f8;
+
+	&__content {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	&__social {
+		width: 10%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		text-transform: uppercase;
+	}
+}
+
+.categories {
+	padding: 20px 0 0 50px;
+}

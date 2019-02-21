@@ -335,4 +335,20 @@ ul, li {
   .post__text--uppercase {
     text-transform: uppercase; }
 
+.share {
+  padding: 30px;
+  background: #f8f8f8; }
+  .share__content {
+    display: flex;
+    justify-content: space-around; }
+  .share__social {
+    width: 10%;
+    display: flex;
+    justify-content: space-between; }
+  .share__title {
+    text-transform: uppercase; }
+
+.categories {
+  padding: 20px 0 0 50px; }
+
 /*# sourceMappingURL=style.css.map */
